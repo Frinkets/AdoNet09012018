@@ -1,0 +1,17 @@
+﻿<Window x:Class="AdoNet09012018.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdoNet09012018"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="SqlClientButton" Click="SqlClient_Click" Width="100" Height="30" Content="SqlClient" Margin="10,10,407,279"></Button>
+        <TextBlock TextWrapping="Wrap" x:Name="SqlClientLabel" Background="AliceBlue" Margin="10,65,372,164"/>
+        <Button x:Name="OleClientButton" Click="OleClientButton_Click" Width="100" Height="30" Content="OledbClient" Margin="175,10,242,279"></Button>
+        <TextBlock TextWrapping="Wrap" x:Name="OleClientLabel" Background="Bisque" Margin="160,65,222,164"/>
+        <Button x:Name="OdbcClientButton" Click="OdbcClientButton_Click" Width="100" Height="30" Content="OdbcClient" Margin="365,10,52,279"></Button>
+        <TextBlock TextWrapping="Wrap" x:Name="OdbcClientLabel" Background="Blue" Margin="355,65,27,164"/>
+    </Grid>
+</Window>
